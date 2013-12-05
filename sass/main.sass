@@ -1,0 +1,218 @@
+@import "compass/css3/filter"
+
+$dark_blue: #006699
+$dark_gray: #222222
+
+body
+	font-family: 'PT Sans', sans-serif
+	font-size: 14px
+	// background: url(/img/_tes.jpg) no-repeat 60px top
+	min-height: 1000px
+
+a
+	text-decoration: underline
+
+h2
+	font-size: 32px
+	color: black
+	a
+		font-size: 11px
+		color: $dark_blue
+
+h3
+	font-size: 16px
+	margin: 0
+
+
+.header
+	padding-top: 25px
+	height: 75px
+	.logo
+		img
+			margin-top: -13px
+	span
+		color: $dark_gray
+		font-size: 10px
+		display: block
+		width: 130px
+		line-height: 130%
+	.call
+		a
+			line-height: 130%
+			color: $dark_blue
+			font-weight: bold
+			font-size: 13px
+			display: block
+			margin-bottom: 7px
+	.phones
+		font-size: 14px
+		font-weight: bold
+		color: $dark_gray
+	.social
+		background: #dff3ff
+		border-radius: 5px
+		padding: 6px 6px 6px 0
+		height: 24px
+		a
+			padding-left: 6px
+			float: left
+
+.menu
+	list-style-type: none
+	li
+		float: left
+	&.first
+		margin: 0
+		a
+			color: $dark_blue
+			font-weight: bold
+			font-size: 12px
+	&.langBar
+		float: right
+		li
+			a
+				color: black
+				font-size: 10px
+				text-decoration: underline
+				margin-left: 10px
+		li.active
+			a
+				color: $dark_gray
+				text-decoration: none
+
+.topMenu_wrapper
+	background: #0d81c8
+	background: linear-gradient(to bottom, #0d81c8 0%,#0a5fab 100%)
+
+.topMenu
+	.span2
+		margin-left: 0
+		padding-left: 10px
+	a
+		padding: 13px 0
+		display: block
+		font-weight: bold
+		font-style: italic
+		color: #ccffff
+		width: 130px
+		height: 60px
+	div:hover
+		background: #0691d9
+
+
+.slider
+	height: 460px
+
+
+.footer_wrapper
+	background: #1b1b1b
+
+.footer
+	background: url(/img/bg_footer.png) no-repeat right top
+	color: #999999
+	// font-weight: bold
+	font-size: 10px
+	padding-top: 16px
+	height: 70px
+	a, span
+		font-size: 13px
+		color: white
+
+
+
+.iosSlider
+	position: relative
+	top: 0
+	left: 0
+	overflow: hidden
+	width: 960px
+	height: 460px
+	.prevButton, .nextButton
+		position: absolute
+		bottom: 0
+		width: 185px
+		height: 117px
+		z-index: 2
+	.prevButton
+		left: 0
+		background: url(/img/prev.jpg) no-repeat right 0
+	.nextButton
+		right: 0
+		background: url(/img/next.jpg) no-repeat left 0
+	.slider
+		width: 100%
+		height: 100%
+		.item
+			position: relative
+			top: 0
+			left: 0
+			width: 960px
+			height: 460px
+			margin: 0
+			.image
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 460px
+				.bg
+					border: 10px solid #000
+					border-right: 0
+					height: 180px
+					width: 340px
+					opacity: 0.5
+					display: none
+			.text
+				background: rgba(0, 61, 143, 0.8)
+				position: absolute
+				bottom: 0
+				right: 185px
+				width: 470px
+				height: 193px
+				padding: 30px 60px
+
+.iphoneUI .iosSlider .slider .item .text
+	display: none
+
+.iphoneUI .iosSlider .slider .item .text .bg
+	display: none
+
+.iosSlider .slider .item .title
+	position: relative
+	top: 0
+	left: 0
+	text-indent: -1px
+
+.iosSlider .slider .item .title span
+	color: #fff
+	font-size: 18px
+	font-style: italic
+	text-shadow: 0 -1px 1px #000
+
+.iosSlider .slider .item .desc
+	position: relative
+	top: 0
+	left: 0
+	margin: 10px 0 0 0
+
+.iosSlider .slider .item .desc span
+	color: #fff
+	font-size: 32px
+	font-weight: bold
+	line-height: 150%
+
+
+.iosSlider .slider .item .button
+	position: absolute
+	right: 20px
+	bottom: 20px
+	padding: 0 10px 0 10px
+	margin: 10px 0 0 0
+	background: #aaa
+	border: 1px solid #000
+	cursor: pointer
+
+.iosSlider .slider .item .button span
+	color: #000
+	font: normal 14px/30px "Helvetica Neue",Helvetica,Arial,sans-serif
+	text-shadow: 0 1px 1px #fff
