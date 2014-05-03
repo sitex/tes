@@ -16,3 +16,8 @@
 ehthumbs.db
 Thumbs.db
 .sass-cache/
+
+
+node_modules/
+package.json
+Gruntfile.js
