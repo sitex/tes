@@ -1,167 +1,266 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 6, ../sass/main.sass */
-body {
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  min-height: 1000px;
+/* line 5, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
-/* line 12, ../sass/main.sass */
+/* line 22, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 106, ../../../lib/gems/1.8/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 87.5%;
+  line-height: 1.57143em;
+}
+
+/* line 11, ../sass/main.sass */
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+/* line 16, ../sass/main.sass */
 a {
   text-decoration: underline;
 }
 
-/* line 15, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 h2 {
-  font-size: 32px;
+  font-size: 2.28571em;
+  line-height: 1.375em;
   color: black;
 }
-/* line 18, ../sass/main.sass */
+/* line 22, ../sass/main.sass */
 h2 a {
-  font-size: 11px;
+  font-size: 0.78571em;
+  line-height: 2em;
   color: #006699;
 }
 
-/* line 22, ../sass/main.sass */
+/* line 26, ../sass/main.sass */
 h3 {
-  font-size: 16px;
-  margin: 0;
+  font-size: 1.14286em;
+  line-height: 1.375em;
 }
 
-/* line 27, ../sass/main.sass */
+/* line 29, ../sass/main.sass */
 .header {
   padding-top: 25px;
   height: 75px;
 }
-/* line 31, ../sass/main.sass */
+/* line 33, ../sass/main.sass */
 .header .logo img {
   margin-top: -13px;
 }
-/* line 33, ../sass/main.sass */
+/* line 35, ../sass/main.sass */
 .header span {
-  color: #222222;
-  font-size: 10px;
+  color: #666666;
+  font-size: 0.71429em;
+  line-height: 2.2em;
   display: block;
   width: 130px;
   line-height: 130%;
 }
-/* line 40, ../sass/main.sass */
+/* line 42, ../sass/main.sass */
 .header .call a {
   line-height: 130%;
   color: #006699;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 0.92857em;
+  line-height: 1.69231em;
   display: block;
-  margin-bottom: 7px;
 }
-/* line 47, ../sass/main.sass */
-.header .phones {
-  font-size: 14px;
-  font-weight: bold;
-  color: #222222;
+/* line 48, ../sass/main.sass */
+.header .call span {
+  color: #666666;
+  font-size: 0.76923em;
+  line-height: 1.1em;
 }
 /* line 51, ../sass/main.sass */
+.header .phones {
+  font-size: 1em;
+  line-height: 1.57143em;
+  font-weight: bold;
+  color: #666666;
+}
+/* line 55, ../sass/main.sass */
+.header .phones span {
+  font-size: 0.71429em;
+  line-height: 2.2em;
+}
+/* line 57, ../sass/main.sass */
 .header .social {
   background: #dff3ff;
   border-radius: 5px;
   padding: 6px 6px 6px 0;
   height: 24px;
 }
-/* line 56, ../sass/main.sass */
+/* line 62, ../sass/main.sass */
 .header .social a {
   padding-left: 6px;
   float: left;
 }
 
-/* line 60, ../sass/main.sass */
+/* line 66, ../sass/main.sass */
+.search {
+  float: right;
+}
+
+/* line 69, ../sass/main.sass */
 .menu {
   list-style-type: none;
 }
-/* line 62, ../sass/main.sass */
+/* line 71, ../sass/main.sass */
 .menu li {
   float: left;
 }
-/* line 64, ../sass/main.sass */
+/* line 73, ../sass/main.sass */
 .menu.first {
   margin: 0;
 }
-/* line 66, ../sass/main.sass */
+/* line 75, ../sass/main.sass */
 .menu.first a {
   color: #006699;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.92857em;
+  line-height: 1.69231em;
 }
-/* line 70, ../sass/main.sass */
+/* line 79, ../sass/main.sass */
 .menu.langBar {
   float: right;
 }
-/* line 73, ../sass/main.sass */
+/* line 82, ../sass/main.sass */
 .menu.langBar li a {
   color: black;
-  font-size: 10px;
+  font-size: 0.71429em;
+  line-height: 2.2em;
   text-decoration: underline;
-  margin-left: 10px;
+  margin-left: 15px;
 }
-/* line 79, ../sass/main.sass */
+/* line 88, ../sass/main.sass */
 .menu.langBar li.active a {
-  color: #222222;
+  color: #666666;
   text-decoration: none;
 }
 
-/* line 83, ../sass/main.sass */
+/* line 92, ../sass/main.sass */
 .topMenu_wrapper {
   background: #0d81c8;
   background: linear-gradient(to bottom, #0d81c8 0%, #0a5fab 100%);
 }
 
-/* line 88, ../sass/main.sass */
+/* line 96, ../sass/main.sass */
+.topMenu {
+  overflow: hidden;
+}
+/* line 98, ../sass/main.sass */
 .topMenu .span2 {
   margin-left: 0;
   padding-left: 10px;
+  margin-bottom: -399px;
+  padding-bottom: 399px;
 }
-/* line 91, ../sass/main.sass */
+/* line 103, ../sass/main.sass */
 .topMenu a {
-  padding: 13px 0;
+  font-size: 1em;
+  line-height: 1.57143em;
+  margin-top: 0em;
+  padding-top: 0.78571em;
+  padding-bottom: 0.78571em;
+  margin-bottom: 0em;
   display: block;
   font-weight: bold;
   font-style: italic;
   color: #ccffff;
   width: 130px;
-  height: 60px;
 }
-/* line 99, ../sass/main.sass */
+/* line 111, ../sass/main.sass */
 .topMenu div:hover {
   background: #0691d9;
 }
 
-/* line 103, ../sass/main.sass */
+/* line 114, ../sass/main.sass */
 .slider {
   height: 460px;
 }
 
-/* line 107, ../sass/main.sass */
+/* line 118, ../sass/main.sass */
 .footer_wrapper {
   background: #1b1b1b;
 }
 
-/* line 110, ../sass/main.sass */
+/* line 121, ../sass/main.sass */
 .footer {
   background: url(/img/bg_footer.png) no-repeat right top;
   color: #999999;
-  font-size: 10px;
+  font-size: 0.71429em;
+  line-height: 2.2em;
   padding-top: 16px;
   height: 70px;
 }
-/* line 117, ../sass/main.sass */
+/* line 128, ../sass/main.sass */
 .footer a, .footer span {
-  font-size: 13px;
+  font-size: 0.92857em;
+  line-height: 1.69231em;
   color: white;
 }
 
-/* line 123, ../sass/main.sass */
+/* line 134, ../sass/main.sass */
 .iosSlider {
   position: relative;
   top: 0;
@@ -170,7 +269,7 @@ h3 {
   width: 960px;
   height: 460px;
 }
-/* line 130, ../sass/main.sass */
+/* line 141, ../sass/main.sass */
 .iosSlider .prevButton, .iosSlider .nextButton {
   position: absolute;
   bottom: 0;
@@ -178,22 +277,22 @@ h3 {
   height: 117px;
   z-index: 2;
 }
-/* line 136, ../sass/main.sass */
+/* line 147, ../sass/main.sass */
 .iosSlider .prevButton {
   left: 0;
   background: url(/img/prev.jpg) no-repeat right 0;
 }
-/* line 139, ../sass/main.sass */
+/* line 150, ../sass/main.sass */
 .iosSlider .nextButton {
   right: 0;
   background: url(/img/next.jpg) no-repeat left 0;
 }
-/* line 142, ../sass/main.sass */
+/* line 153, ../sass/main.sass */
 .iosSlider .slider {
   width: 100%;
   height: 100%;
 }
-/* line 145, ../sass/main.sass */
+/* line 156, ../sass/main.sass */
 .iosSlider .slider .item {
   position: relative;
   top: 0;
@@ -202,7 +301,7 @@ h3 {
   height: 460px;
   margin: 0;
 }
-/* line 152, ../sass/main.sass */
+/* line 163, ../sass/main.sass */
 .iosSlider .slider .item .image {
   position: absolute;
   top: 0;
@@ -210,7 +309,7 @@ h3 {
   width: 100%;
   height: 460px;
 }
-/* line 158, ../sass/main.sass */
+/* line 169, ../sass/main.sass */
 .iosSlider .slider .item .image .bg {
   border: 10px solid black;
   border-right: 0;
@@ -219,7 +318,7 @@ h3 {
   opacity: 0.5;
   display: none;
 }
-/* line 165, ../sass/main.sass */
+/* line 176, ../sass/main.sass */
 .iosSlider .slider .item .text {
   background: rgba(0, 61, 143, 0.8);
   position: absolute;
@@ -230,17 +329,17 @@ h3 {
   padding: 30px 60px;
 }
 
-/* line 174, ../sass/main.sass */
+/* line 185, ../sass/main.sass */
 .iphoneUI .iosSlider .slider .item .text {
   display: none;
 }
 
-/* line 177, ../sass/main.sass */
+/* line 188, ../sass/main.sass */
 .iphoneUI .iosSlider .slider .item .text .bg {
   display: none;
 }
 
-/* line 180, ../sass/main.sass */
+/* line 191, ../sass/main.sass */
 .iosSlider .slider .item .title {
   position: relative;
   top: 0;
@@ -248,15 +347,16 @@ h3 {
   text-indent: -1px;
 }
 
-/* line 186, ../sass/main.sass */
+/* line 197, ../sass/main.sass */
 .iosSlider .slider .item .title span {
   color: white;
-  font-size: 18px;
+  font-size: 1.28571em;
+  line-height: 1.22222em;
   font-style: italic;
   text-shadow: 0 -1px 1px black;
 }
 
-/* line 192, ../sass/main.sass */
+/* line 203, ../sass/main.sass */
 .iosSlider .slider .item .desc {
   position: relative;
   top: 0;
@@ -264,15 +364,16 @@ h3 {
   margin: 10px 0 0 0;
 }
 
-/* line 198, ../sass/main.sass */
+/* line 209, ../sass/main.sass */
 .iosSlider .slider .item .desc span {
   color: white;
-  font-size: 32px;
+  font-size: 2.28571em;
+  line-height: 1.375em;
   font-weight: bold;
   line-height: 150%;
 }
 
-/* line 205, ../sass/main.sass */
+/* line 216, ../sass/main.sass */
 .iosSlider .slider .item .button {
   position: absolute;
   right: 20px;
@@ -284,9 +385,16 @@ h3 {
   cursor: pointer;
 }
 
-/* line 215, ../sass/main.sass */
+/* line 226, ../sass/main.sass */
 .iosSlider .slider .item .button span {
   color: black;
   font: normal 14px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 1px 1px white;
 }
+
+/* line 232, ../sass/main.sass */
+.recent .span {
+  width: 180px;
+}
+
+/*# sourceMappingURL=screen.css.map */
