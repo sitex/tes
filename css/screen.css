@@ -69,45 +69,50 @@ html {
   line-height: 1.57143em;
 }
 
-/* line 11, ../sass/main.sass */
+/* line 1, ../sass/_main.sass */
 body {
   font-family: "PT Sans", sans-serif;
+  color: black;
 }
 
-/* line 16, ../sass/main.sass */
+/* line 5, ../sass/_main.sass */
 a {
   text-decoration: underline;
 }
 
-/* line 19, ../sass/main.sass */
+/* line 8, ../sass/_main.sass */
 h2 {
   font-size: 2.28571em;
   line-height: 1.375em;
   color: black;
 }
-/* line 22, ../sass/main.sass */
+/* line 11, ../sass/_main.sass */
 h2 a {
-  font-size: 0.78571em;
+  font-size: 0.34375em;
   line-height: 2em;
-  color: #006699;
 }
 
-/* line 26, ../sass/main.sass */
+/* line 14, ../sass/_main.sass */
 h3 {
   font-size: 1.14286em;
   line-height: 1.375em;
 }
 
-/* line 29, ../sass/main.sass */
+/* line 17, ../sass/_main.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* line 21, ../sass/_main.sass */
 .header {
   padding-top: 25px;
   height: 75px;
 }
-/* line 33, ../sass/main.sass */
+/* line 25, ../sass/_main.sass */
 .header .logo img {
   margin-top: -13px;
 }
-/* line 35, ../sass/main.sass */
+/* line 27, ../sass/_main.sass */
 .header span {
   color: #666666;
   font-size: 0.71429em;
@@ -116,7 +121,7 @@ h3 {
   width: 130px;
   line-height: 130%;
 }
-/* line 42, ../sass/main.sass */
+/* line 34, ../sass/_main.sass */
 .header .call a {
   line-height: 130%;
   color: #006699;
@@ -125,66 +130,66 @@ h3 {
   line-height: 1.69231em;
   display: block;
 }
-/* line 48, ../sass/main.sass */
+/* line 40, ../sass/_main.sass */
 .header .call span {
   color: #666666;
   font-size: 0.76923em;
   line-height: 1.1em;
 }
-/* line 51, ../sass/main.sass */
+/* line 43, ../sass/_main.sass */
 .header .phones {
   font-size: 1em;
   line-height: 1.57143em;
   font-weight: bold;
   color: #666666;
 }
-/* line 55, ../sass/main.sass */
+/* line 47, ../sass/_main.sass */
 .header .phones span {
   font-size: 0.71429em;
   line-height: 2.2em;
 }
-/* line 57, ../sass/main.sass */
+/* line 49, ../sass/_main.sass */
 .header .social {
   background: #dff3ff;
   border-radius: 5px;
   padding: 6px 6px 6px 0;
   height: 24px;
 }
-/* line 62, ../sass/main.sass */
+/* line 54, ../sass/_main.sass */
 .header .social a {
   padding-left: 6px;
   float: left;
 }
 
-/* line 66, ../sass/main.sass */
+/* line 58, ../sass/_main.sass */
 .search {
   float: right;
 }
 
-/* line 69, ../sass/main.sass */
+/* line 61, ../sass/_main.sass */
 .menu {
   list-style-type: none;
 }
-/* line 71, ../sass/main.sass */
+/* line 63, ../sass/_main.sass */
 .menu li {
   float: left;
 }
-/* line 73, ../sass/main.sass */
+/* line 65, ../sass/_main.sass */
 .menu.first {
   margin: 0;
 }
-/* line 75, ../sass/main.sass */
+/* line 67, ../sass/_main.sass */
 .menu.first a {
   color: #006699;
   font-weight: bold;
   font-size: 0.92857em;
   line-height: 1.69231em;
 }
-/* line 79, ../sass/main.sass */
+/* line 71, ../sass/_main.sass */
 .menu.langBar {
   float: right;
 }
-/* line 82, ../sass/main.sass */
+/* line 74, ../sass/_main.sass */
 .menu.langBar li a {
   color: black;
   font-size: 0.71429em;
@@ -192,30 +197,30 @@ h3 {
   text-decoration: underline;
   margin-left: 15px;
 }
-/* line 88, ../sass/main.sass */
+/* line 80, ../sass/_main.sass */
 .menu.langBar li.active a {
   color: #666666;
   text-decoration: none;
 }
 
-/* line 92, ../sass/main.sass */
+/* line 84, ../sass/_main.sass */
 .topMenu_wrapper {
   background: #0d81c8;
   background: linear-gradient(to bottom, #0d81c8 0%, #0a5fab 100%);
 }
 
-/* line 96, ../sass/main.sass */
+/* line 88, ../sass/_main.sass */
 .topMenu {
   overflow: hidden;
 }
-/* line 98, ../sass/main.sass */
+/* line 90, ../sass/_main.sass */
 .topMenu .span2 {
   margin-left: 0;
   padding-left: 10px;
   margin-bottom: -399px;
   padding-bottom: 399px;
 }
-/* line 103, ../sass/main.sass */
+/* line 95, ../sass/_main.sass */
 .topMenu a {
   font-size: 1em;
   line-height: 1.57143em;
@@ -229,22 +234,22 @@ h3 {
   color: #ccffff;
   width: 130px;
 }
-/* line 111, ../sass/main.sass */
+/* line 103, ../sass/_main.sass */
 .topMenu div:hover {
   background: #0691d9;
 }
 
-/* line 114, ../sass/main.sass */
+/* line 106, ../sass/_main.sass */
 .slider {
   height: 460px;
 }
 
-/* line 118, ../sass/main.sass */
+/* line 110, ../sass/_main.sass */
 .footer_wrapper {
   background: #1b1b1b;
 }
 
-/* line 121, ../sass/main.sass */
+/* line 113, ../sass/_main.sass */
 .footer {
   background: url(/img/bg_footer.png) no-repeat right top;
   color: #999999;
@@ -253,14 +258,33 @@ h3 {
   padding-top: 16px;
   height: 70px;
 }
-/* line 128, ../sass/main.sass */
+/* line 120, ../sass/_main.sass */
 .footer a, .footer span {
   font-size: 0.92857em;
   line-height: 1.69231em;
   color: white;
 }
 
-/* line 134, ../sass/main.sass */
+/* line 126, ../sass/_main.sass */
+.short {
+  padding: 40px 0 0 40px;
+}
+/* line 128, ../sass/_main.sass */
+.short p {
+  padding: 20px 0 0 40px;
+}
+
+/* line 131, ../sass/_main.sass */
+.recent {
+  padding: 57px 0 0;
+}
+/* line 133, ../sass/_main.sass */
+.recent .span {
+  width: 180px;
+  margin: 30px 0 0;
+}
+
+/* line 1, ../sass/_iosslider.sass */
 .iosSlider {
   position: relative;
   top: 0;
@@ -269,7 +293,7 @@ h3 {
   width: 960px;
   height: 460px;
 }
-/* line 141, ../sass/main.sass */
+/* line 8, ../sass/_iosslider.sass */
 .iosSlider .prevButton, .iosSlider .nextButton {
   position: absolute;
   bottom: 0;
@@ -277,22 +301,22 @@ h3 {
   height: 117px;
   z-index: 2;
 }
-/* line 147, ../sass/main.sass */
+/* line 14, ../sass/_iosslider.sass */
 .iosSlider .prevButton {
   left: 0;
   background: url(/img/prev.jpg) no-repeat right 0;
 }
-/* line 150, ../sass/main.sass */
+/* line 17, ../sass/_iosslider.sass */
 .iosSlider .nextButton {
   right: 0;
   background: url(/img/next.jpg) no-repeat left 0;
 }
-/* line 153, ../sass/main.sass */
+/* line 20, ../sass/_iosslider.sass */
 .iosSlider .slider {
   width: 100%;
   height: 100%;
 }
-/* line 156, ../sass/main.sass */
+/* line 23, ../sass/_iosslider.sass */
 .iosSlider .slider .item {
   position: relative;
   top: 0;
@@ -301,7 +325,7 @@ h3 {
   height: 460px;
   margin: 0;
 }
-/* line 163, ../sass/main.sass */
+/* line 30, ../sass/_iosslider.sass */
 .iosSlider .slider .item .image {
   position: absolute;
   top: 0;
@@ -309,7 +333,7 @@ h3 {
   width: 100%;
   height: 460px;
 }
-/* line 169, ../sass/main.sass */
+/* line 36, ../sass/_iosslider.sass */
 .iosSlider .slider .item .image .bg {
   border: 10px solid black;
   border-right: 0;
@@ -318,7 +342,7 @@ h3 {
   opacity: 0.5;
   display: none;
 }
-/* line 176, ../sass/main.sass */
+/* line 43, ../sass/_iosslider.sass */
 .iosSlider .slider .item .text {
   background: rgba(0, 61, 143, 0.8);
   position: absolute;
@@ -329,17 +353,17 @@ h3 {
   padding: 30px 60px;
 }
 
-/* line 185, ../sass/main.sass */
+/* line 52, ../sass/_iosslider.sass */
 .iphoneUI .iosSlider .slider .item .text {
   display: none;
 }
 
-/* line 188, ../sass/main.sass */
+/* line 55, ../sass/_iosslider.sass */
 .iphoneUI .iosSlider .slider .item .text .bg {
   display: none;
 }
 
-/* line 191, ../sass/main.sass */
+/* line 58, ../sass/_iosslider.sass */
 .iosSlider .slider .item .title {
   position: relative;
   top: 0;
@@ -347,7 +371,7 @@ h3 {
   text-indent: -1px;
 }
 
-/* line 197, ../sass/main.sass */
+/* line 64, ../sass/_iosslider.sass */
 .iosSlider .slider .item .title span {
   color: white;
   font-size: 1.28571em;
@@ -356,7 +380,7 @@ h3 {
   text-shadow: 0 -1px 1px black;
 }
 
-/* line 203, ../sass/main.sass */
+/* line 70, ../sass/_iosslider.sass */
 .iosSlider .slider .item .desc {
   position: relative;
   top: 0;
@@ -364,7 +388,7 @@ h3 {
   margin: 10px 0 0 0;
 }
 
-/* line 209, ../sass/main.sass */
+/* line 76, ../sass/_iosslider.sass */
 .iosSlider .slider .item .desc span {
   color: white;
   font-size: 2.28571em;
@@ -373,7 +397,7 @@ h3 {
   line-height: 150%;
 }
 
-/* line 216, ../sass/main.sass */
+/* line 83, ../sass/_iosslider.sass */
 .iosSlider .slider .item .button {
   position: absolute;
   right: 20px;
@@ -385,16 +409,11 @@ h3 {
   cursor: pointer;
 }
 
-/* line 226, ../sass/main.sass */
+/* line 93, ../sass/_iosslider.sass */
 .iosSlider .slider .item .button span {
   color: black;
   font: normal 14px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 1px 1px white;
-}
-
-/* line 232, ../sass/main.sass */
-.recent .span {
-  width: 180px;
 }
 
 /*# sourceMappingURL=screen.css.map */

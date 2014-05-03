@@ -1,0 +1,135 @@
+body
+	font-family: 'PT Sans', sans-serif
+	color: $black
+
+a
+	text-decoration: underline
+
+h2
+	@include adjust-font-size-to(32px)
+	color: black
+	a
+		@include adjust-font-size-to(11px,1,32px)
+
+h3
+	@include adjust-font-size-to(16px)
+
+#{headings()}
+	font-weight: 700
+
+
+.header
+	padding-top: 25px
+	height: 75px
+	.logo
+		img
+			margin-top: -13px
+	span
+		color: $dark_gray
+		@include adjust-font-size-to(10px)
+		display: block
+		width: 130px
+		line-height: 130%
+	.call
+		a
+			line-height: 130%
+			color: $dark_blue
+			font-weight: bold
+			@include adjust-font-size-to(13px)
+			display: block
+		span
+			color: $dark_gray
+			@include adjust-font-size-to(10px, 1/2, 13px)
+	.phones
+		@include adjust-font-size-to(14px)
+		font-weight: bold
+		color: $dark_gray
+		span
+			@include adjust-font-size-to(10px, 1, 14px)
+	.social
+		background: #dff3ff
+		border-radius: 5px
+		padding: 6px 6px 6px 0
+		height: 24px
+		a
+			padding-left: 6px
+			float: left
+
+.search
+	float: right
+
+.menu
+	list-style-type: none
+	li
+		float: left
+	&.first
+		margin: 0
+		a
+			color: $dark_blue
+			font-weight: bold
+			@include adjust-font-size-to(13px)
+	&.langBar
+		float: right
+		li
+			a
+				color: black
+				@include adjust-font-size-to(10px)
+				text-decoration: underline
+				margin-left: 15px
+		li.active
+			a
+				color: $dark_gray
+				text-decoration: none
+
+.topMenu_wrapper
+	background: #0d81c8
+	background: linear-gradient(to bottom, #0d81c8 0%,#0a5fab 100%)
+
+.topMenu
+	overflow: hidden
+	.span2
+		margin-left: 0
+		padding-left: 10px
+		margin-bottom: -399px
+		padding-bottom: 399px
+	a
+		@include adjust-font-size-to(14px)
+		@include rhythm(0,1/2,1/2,0,14px)
+		display: block
+		font-weight: bold
+		font-style: italic
+		color: #ccffff
+		width: 130px
+	div:hover
+		background: #0691d9
+
+.slider
+	height: 460px
+
+
+.footer_wrapper
+	background: #1b1b1b
+
+.footer
+	background: url(/img/bg_footer.png) no-repeat right top
+	color: #999999
+	// font-weight: bold
+	@include adjust-font-size-to(10px)
+	padding-top: 16px
+	height: 70px
+	a, span
+		@include adjust-font-size-to(13px)
+		color: white
+
+
+
+.short
+	padding: 40px 0 0 40px
+	p
+		padding: 20px 0 0 40px
+
+.recent
+	padding: 57px 0 0
+	.span
+		width: 180px
+		margin: 30px 0 0
