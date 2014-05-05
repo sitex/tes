@@ -68,12 +68,12 @@
 <div class="topMenu_wrapper">
 	<div class="container">
 	<div class="row topMenu">
-		<div class="span2"><a href="#">Введение бухгалтерского учета</a></div>
-		<div class="span2"><a href="#">Расчет заработной платы</a></div>
-		<div class="span2"><a href="#">Восстановление бухгалтерского учета</a></div>
-		<div class="span2"><a href="#">Подбор персонала Рекрутинг</a></div>
-		<div class="span2"><a href="#">Кадровое администрирование</a></div>
-		<div class="span2"><a href="#">Аутстаффинг</a></div>
+		<div class="span2"><a href="inside.php">Введение бухгалтерского учета</a></div>
+		<div class="span2"><a href="inside.php">Расчет заработной платы</a></div>
+		<div class="span2"><a href="inside.php">Восстановление бухгалтерского учета</a></div>
+		<div class="span2"><a href="inside.php">Подбор персонала Рекрутинг</a></div>
+		<div class="span2"><a href="inside.php">Кадровое администрирование</a></div>
+		<div class="span2"><a href="inside.php">Аутстаффинг</a></div>
 	</div>
 	</div>
 </div>
