@@ -56,7 +56,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 html {
   font-size: 87.5%;
-  line-height: 1.57143em;
+  line-height: 1.42857em;
 }
 
 body {
@@ -70,17 +70,16 @@ a {
 
 h2 {
   font-size: 2.28571em;
-  line-height: 1.375em;
-  color: black;
+  line-height: 1.25em;
 }
 h2 a {
   font-size: 0.34375em;
-  line-height: 2em;
+  line-height: 1.81818em;
 }
 
 h3 {
   font-size: 1.14286em;
-  line-height: 1.375em;
+  line-height: 1.25em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -97,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .header span {
   color: #666666;
   font-size: 0.71429em;
-  line-height: 2.2em;
+  line-height: 2em;
   display: block;
   width: 130px;
   line-height: 130%;
@@ -107,23 +106,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #006699;
   font-weight: bold;
   font-size: 0.92857em;
-  line-height: 1.69231em;
+  line-height: 1.53846em;
   display: block;
 }
 .header .call span {
   color: #666666;
   font-size: 0.76923em;
-  line-height: 1.1em;
+  line-height: 1em;
 }
 .header .phones {
   font-size: 1em;
-  line-height: 1.57143em;
+  line-height: 1.42857em;
   font-weight: bold;
   color: #666666;
 }
 .header .phones span {
   font-size: 0.71429em;
-  line-height: 2.2em;
+  line-height: 2em;
 }
 .header .social {
   background: #dff3ff;
@@ -153,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #006699;
   font-weight: bold;
   font-size: 0.92857em;
-  line-height: 1.69231em;
+  line-height: 1.53846em;
 }
 .menu.langBar {
   float: right;
@@ -161,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu.langBar li a {
   color: black;
   font-size: 0.71429em;
-  line-height: 2.2em;
+  line-height: 2em;
   text-decoration: underline;
   margin-left: 15px;
 }
@@ -173,6 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 .topMenu_wrapper {
   background: #0d81c8;
   background: linear-gradient(to bottom, #0d81c8 0%, #0a5fab 100%);
+  margin-bottom: 2.85714em;
 }
 
 .topMenu {
@@ -186,10 +186,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .topMenu a {
   font-size: 1em;
-  line-height: 1.57143em;
+  line-height: 1.42857em;
   margin-top: 0em;
-  padding-top: 0.78571em;
-  padding-bottom: 0.78571em;
+  padding-top: 0.71429em;
+  padding-bottom: 0.71429em;
   margin-bottom: 0em;
   display: block;
   font-weight: bold;
@@ -207,19 +207,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer_wrapper {
   background: #1b1b1b;
+  margin-top: 2.85714em;
 }
 
 .footer {
   background: url(/img/bg_footer.png) no-repeat right top;
   color: #999999;
   font-size: 0.71429em;
-  line-height: 2.2em;
+  line-height: 2em;
   padding-top: 16px;
   height: 70px;
 }
 .footer a, .footer span {
   font-size: 0.92857em;
-  line-height: 1.69231em;
+  line-height: 1.53846em;
   color: white;
 }
 
@@ -236,6 +237,20 @@ h1, h2, h3, h4, h5, h6 {
 .recent .span {
   width: 180px;
   margin: 30px 0 0;
+}
+
+#content h1, #content h3 {
+  font-size: 1.78571em;
+  line-height: 1.2em;
+  margin-bottom: 0.71429em;
+}
+#content ul {
+  margin-bottom: 1.42857em;
+  list-style: disc inside;
+}
+#content ul li {
+  font-size: 1.14286em;
+  line-height: 1.25em;
 }
 
 .iosSlider {
@@ -316,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 .iosSlider .slider .item .title span {
   color: white;
   font-size: 1.28571em;
-  line-height: 1.22222em;
+  line-height: 2.22222em;
   font-style: italic;
   text-shadow: 0 -1px 1px black;
 }
@@ -331,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 .iosSlider .slider .item .desc span {
   color: white;
   font-size: 2.28571em;
-  line-height: 1.375em;
+  line-height: 1.25em;
   font-weight: bold;
   line-height: 150%;
 }

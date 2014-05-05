@@ -7,7 +7,6 @@ a
 
 h2
 	@include adjust-font-size-to(32px)
-	color: black
 	a
 		@include adjust-font-size-to(11px,1,32px)
 
@@ -84,6 +83,7 @@ h3
 .topMenu_wrapper
 	background: #0d81c8
 	background: linear-gradient(to bottom, #0d81c8 0%,#0a5fab 100%)
+	@include margin-trailer(2)
 
 .topMenu
 	overflow: hidden
@@ -109,6 +109,7 @@ h3
 
 .footer_wrapper
 	background: #1b1b1b
+	@include margin-leader(2)
 
 .footer
 	background: url(/img/bg_footer.png) no-repeat right top
@@ -133,3 +134,14 @@ h3
 	.span
 		width: 180px
 		margin: 30px 0 0
+
+#content
+	h1, h3
+		@include adjust-font-size-to(25px, 1.5, 14px)
+		@include margin-trailer(1/2)
+	ul
+		@include margin-trailer(1)
+		list-style: disc inside
+		li
+			@include adjust-font-size-to(16px, 1, 14px)
+
