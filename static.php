@@ -3,7 +3,6 @@
 <div class="container">
 	<div class="row slider">
 
-
 		<div class="iosSlider" style="background: url(/img/slider1.jpg) no-repeat center center;">
 			<div class="slider">
 				<div class="item" id="item1">
@@ -44,9 +43,12 @@
 			<div class="nextButton"></div>
 		</div>
 
-
 	</div>
+</div>
 
+<div class="spacer space2"><!-- vertical spacer --></div>
+
+<div class="container">
 
 	<div class="row">
 		<div class="span6">
@@ -62,12 +64,12 @@
 				<div class="span">
 					<img src="/img/event1.jpg" alt="">
 					<p class="date">12 февраля</p>
-					<p><a href="#">Оформлена книга Станислава Смелянского «Полеты над вечностью. Роман-экшн».</a></p>
+					<p><a href="/event.php">Оформлена книга Станислава Смелянского «Полеты над вечностью. Роман-экшн».</a></p>
 				</div>
 				<div class="span">
 					<img src="/img/event2.jpg" alt="">
 					<p class="date">12 февраля</p>
-					<p><a href="#">В Харькове открылся наш партнерский магазин «Обыкновенное чудо».</a></p>
+					<p><a href="/event.php">В Харькове открылся наш партнерский магазин «Обыкновенное чудо».</a></p>
 				</div>
 			</div>
 		</div>

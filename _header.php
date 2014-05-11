@@ -22,7 +22,10 @@
 <!-- bootstrap JS -->
 <script src="js/vendor/bootstrap.min.js"></script>
 <!-- slider -->
-<script src="js/vendor/jquery.iosslider.min.js"></script>
+<script src="js/plugin/jquery.iosslider.min.js"></script>
+<!-- scrollTo -->
+<script src="js/plugin/jquery.scrollTo.min.js"></script>
+<script src="js/plugin/jquery.localScroll.min.js"></script>
 <!-- main -->
 <script src="js/main.js"></script>
 
@@ -34,16 +37,16 @@
 
 <div class="container">
 	<div class="row header">
-		<div class="span2 logo"><img src="/img/logo_tes.png" alt="TES" /></div>
+		<div class="span2 logo"><a href="/"><img src="/img/logo_tes.png" alt="TES" /></a></div>
 		<div class="span1">
 		<ul class="menu first">
-			<li><a href="#">О компании</a></li>
-			<li><a href="#">Контакты</a></li>
+			<li><a href="/about.php">О компании</a></li>
+			<li><a href="/contacts.php">Контакты</a></li>
 		</ul>
 		</div>
 		<div class="span1 text-right"><img src="/img/icon_call.png" alt="" /></div>
 		<div class="span2 call">
-			<a href="#">Заказать звонок</a>
+			<a href="#">Заказать звонок</a><br>
 			<span>Мы перезвоним в удобное для вас время</span>
 		</div>
 		<div class="span2 phones">
@@ -67,13 +70,13 @@
 </div>
 <div class="topMenu_wrapper">
 	<div class="container">
-	<div class="row topMenu">
-		<div class="span2"><a href="inside.php">Введение бухгалтерского учета</a></div>
-		<div class="span2"><a href="inside.php">Расчет заработной платы</a></div>
-		<div class="span2"><a href="inside.php">Восстановление бухгалтерского учета</a></div>
-		<div class="span2"><a href="inside.php">Подбор персонала Рекрутинг</a></div>
-		<div class="span2"><a href="inside.php">Кадровое администрирование</a></div>
-		<div class="span2"><a href="inside.php">Аутстаффинг</a></div>
-	</div>
+		<div class="row topMenu">
+			<div class="span2"><a href="/service.php">Введение бухгалтерского учета</a></div>
+			<div class="span2"><a href="/service.php">Расчет заработной платы</a></div>
+			<div class="span2"><a href="/service.php">Восстановление бухгалтерского учета</a></div>
+			<div class="span2"><a href="/service.php">Подбор персонала Рекрутинг</a></div>
+			<div class="span2"><a href="/service.php">Кадровое администрирование</a></div>
+			<div class="span2"><a href="/service.php">Аутстаффинг</a></div>
+		</div>
 	</div>
 </div>
